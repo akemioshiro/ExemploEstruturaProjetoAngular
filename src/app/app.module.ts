@@ -1,6 +1,7 @@
 // Bibliotecas do Angular
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http';
 
 // Bibliotecas Externas
 import { ThfModule } from '@totvs/thf-web';
@@ -29,6 +30,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     ThfModule
   ],
   providers: [],
